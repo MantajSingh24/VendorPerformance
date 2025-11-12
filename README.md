@@ -2,22 +2,6 @@
 
 End-to-end project that cleans raw procurement data using Python, loads it into PostgreSQL, and builds an interactive Vendor Performance Dashboard in Power BI.
 
-📂 Project Structure
-vendor-performance/
-│
-├── data/
-│   ├── raw/        (input CSVs)
-│   └── cleaned/    (cleaned ETL outputs)
-│
-├── sql/
-│   ├── ddl.sql          (table schema)
-│   └── sample_queries.sql
-│
-├── etl/
-│   └── clean_load.py    (ETL script)
-│
-└── README.md
-
 🚀 Features
 
 Python ETL to clean, standardize, and load CSVs
