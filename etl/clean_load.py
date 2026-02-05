@@ -2,7 +2,6 @@
 import os
 import pandas as pd
 from dateutil import parser
-from fuzzywuzzy import process
 from sqlalchemy import create_engine
 
 BASE = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
